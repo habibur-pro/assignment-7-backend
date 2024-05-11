@@ -15,7 +15,7 @@
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only ./app/server.ts",
     "build": "tsc",
-    "start": "node ./dist/server.js"
+    "start": "node ./public/server.js"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
